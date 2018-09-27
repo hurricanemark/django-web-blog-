@@ -32,3 +32,10 @@ Specify hosts where the web server would be run:
 # **Running**
 python manage.py runserver localhost:9000
 
+or 
+
+python manage.py runserver 0:9000
+
+or
+
+python manage.py runserver www.myfameblog.com:9000
