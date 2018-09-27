@@ -2,12 +2,12 @@
 # **Romiland Blog**
 A web app written in python using Django framework.
 
-#**Pre-requisites**
+# **Pre-requisites**
 ```
 python3.7.0
 Django 2.0.1
 Django-crispy-forms
-Pillow
+Pillow 2.5.0
 ```
 
 # **Environment**
@@ -23,7 +23,7 @@ pip install Pillow
 django-admin check
 ```
 
-#**Configure**
+# **Configure**
 Edit file settings.py
 
 Specify hosts where the web server would be run:
