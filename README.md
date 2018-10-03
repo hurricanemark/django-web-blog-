@@ -5,7 +5,7 @@ A web app written in python using Django framework.
 # **Pre-requisites**
 ```
 python3.7.0
-Django 2.0.1
+Django 2.1.1
 Django-crispy-forms
 Pillow 2.5.0
 ```
