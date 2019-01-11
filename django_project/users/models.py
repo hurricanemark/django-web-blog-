@@ -12,8 +12,8 @@ class Profile(models.Model):
 		return f'{self.user.username} Profile'
 
 	# override save method to reduce image size to 300x300
-	def save(self):
-		super().save()
+	def save(self, *args, **kawrgs):
+		super().save(*args, **kawrgs)
 		img = Image.open(self.image.path)
 		try:
 			if img.height > 300 or img.width > 300:
